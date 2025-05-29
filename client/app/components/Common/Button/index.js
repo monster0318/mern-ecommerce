@@ -20,6 +20,7 @@ const variants = {
 };
 
 const Button = props => {
+
   const {
     id,
     size,
