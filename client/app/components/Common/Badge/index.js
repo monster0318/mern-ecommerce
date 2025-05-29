@@ -16,6 +16,7 @@ const variants = {
 };
 
 const Badge = props => {
+
   const { variant, className, borderless, round, children } = props;
 
   const v = variant ? variants[variant] : '';
