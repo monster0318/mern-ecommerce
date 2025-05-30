@@ -3,6 +3,7 @@ const uuidv4 = require('uuid').v4;
 const users = [];
 const messages = [];
 
+
 const findUserById = id => users.find(x => x.id === id);
 const findUserBySocketId = socketId => users.find(x => x.socketId === socketId);
 
